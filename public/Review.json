@@ -1,0 +1,58 @@
+[
+      {
+        "id": 1,
+        "ratingsCount": 4355,
+        "name": "Md Iqbal Hossaion",
+        "ratings": 4,
+        "img": "https://miro.medium.com/max/1400/0*0fClPmIScV5pTLoE.jpg",
+        "comment": "Excellent food. Menu is extensive and seasonal to a particularly high standard. Definitely fine dining."
+        
+      },
+      {
+        "id": 2,
+        "name": "Nabila Mim",
+        "ratings": 5,
+        "ratingsCount": 4355,
+        "img": "https://miro.medium.com/max/1024/0*vRUwG7Bbjnto-7qa.",
+        "comment": "Amaazing food! The whole experience from start to finish is great waitress is always so friendly and kind. The food can’t get better and the prices are fair for the portion size. Always a great spot to get great food."
+      
+      },
+      {
+        "id": 3,
+        "name": "Juboraj Islam Mamun",
+        "ratings": 4,
+        "ratingsCount": 3972,
+        "img": "https://media.istockphoto.com/photos/home-office-picture-id1184331595?k=20&m=1184331595&s=170667a&w=0&h=c_6hJNRWeXsrrPuA_39IlGFc9T_0ZdOqwAyfgLObtMI=",
+
+        "comment": "Absolutely amazing! The place is beautiful and staff are super friendly and the food is delicious. I love that you get a lot of food as well for the price"
+      
+      },
+      {
+        "id": 4,
+        "name": "Binta Islam Fahi",
+        "ratings": 5,
+        "ratingsCount": 1764,
+        "img": "https://about.crunchbase.com/wp-content/uploads/2019/03/Screen-Shot-2019-03-21-at-4.21.42-PM.png",
+        "comment": "The menus options are an excellent value. The dining experience overall is very pleasant. I highly recommend this restaurant."
+
+      
+      },
+      {
+        "id": 5,
+        "name": "Rafsan Bin Rasel",
+        "ratings": 4,
+        "ratingsCount": 799,
+        "img": "https://media.istockphoto.com/photos/m-here-to-make-it-happen-picture-id968943486?k=20&m=968943486&s=170667a&w=0&h=TRIpr9mCjZP1Ey0WoyV-GVekxH0CJ41SE5ICpxQx7YE=",
+        "comment": "Absolutely amazing! The place is beautiful and staff are super friendly and the food is delicious"
+       
+      },
+      {
+        "id": 6,
+        "name": "Taiaba Alom",
+        "ratings": 3,
+        "ratingsCount": 4372,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOlFtlnf7IITRcHD4nW7SnAcsgrCW3Xfvkjt_iwrYMeY9RNxBH1e9FmUdb1UAnVzfBXSM&usqp=CAU",
+        "comment": " Everything about this restaurant was great. The place was clean and smelled good. The staff and greeter was very nice"
+        
+      }
+]
