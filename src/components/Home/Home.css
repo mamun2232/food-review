@@ -4,3 +4,8 @@
      align-items: center;
      height: 400px;
 }
+.review-card{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px , 1fr));
+      grid-gap: 25px;
+}

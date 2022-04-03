@@ -1,0 +1,22 @@
+.review-card-image img{
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+}
+.review{
+      display: flex;
+}
+.review-card-info{
+      margin-left: 8px;
+}
+.review-card-info h4{
+      margin-top: 10px;
+}
+.review-card-info p{
+      margin: 0;
+}
+.star{
+      color: red;
+      margin-bottom: 5px;
+      font-size: 13px;
+}

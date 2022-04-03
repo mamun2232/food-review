@@ -1,8 +1,13 @@
 import React from 'react';
 import food from '../../components/Images/food-banner.jpg'
+import { useReview } from '../../useReview/useReview';
+import ReviewCard from '../ReviewCard/ReviewCard';
 import './Home.css'
 
 const Home = () => {
+
+      const [reviews , setReview] = useReview()
+      console.log(reviews);
       return (
             <div className='container'>
                   <div className="row">
@@ -22,14 +27,24 @@ const Home = () => {
                               <div className="food-image">
                                     <img className='img-fluid' src={food} alt="" />
                              
-                              
-                             
-                             
-                                  
+                                
                               </div>
                         </div>
                   </div>
+
+                  <div className="review-section mt-5">
+                        <h2 className='text-center'>Our Food Review</h2>
+                        <div className="review-card">
+                        {
+                              reviews.map(review => <ReviewCard review={review} key={review.id}></ReviewCard> )
+                        }
+                        </div>
+                  </div>
             </div>
+
+      
+
+
       );
 };
 
