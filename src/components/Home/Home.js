@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import food from '../../components/Images/food-banner.jpg'
+import food from '../../components/Images/foodss.jpg'
 import { useReview } from '../../useReview/useReview';
 import ReviewCard from '../ReviewCard/ReviewCard';
 

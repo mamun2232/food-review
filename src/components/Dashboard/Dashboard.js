@@ -46,11 +46,12 @@ const Dashboard = () => {
         
          <div className="container">
               <div className="row mt-5 ">
-                <div className="col-lg-6 ">
+                <div className="col-lg-6">
                       <h4 className='text-center mb-3'>MONTH WITH SELL</h4>
 
                     
-                      <LineChart className='' width={600} height={350} data={data}>
+                     <div className="chart">
+                     <LineChart className='' width={530} height={350} data={data}>
                                         <Tooltip></Tooltip>
                                          
                                          <CartesianGrid strokeDasharray="3 3"></CartesianGrid>
@@ -63,6 +64,7 @@ const Dashboard = () => {
                                                
                                                 
                                      </LineChart> 
+                     </div>
 
 
                 

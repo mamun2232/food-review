@@ -1,0 +1,14 @@
+.icon{
+      /* background-color: aliceblue; */
+      background-color: #11c7d4;
+      color: rgb(26, 30, 33);
+      padding: 10px 15px;
+      font-size: 22px;
+      border-radius: 50%;
+      margin: 0px 20px;
+      
+      
+}
+.footer-caption h6{
+      color: #11c7d4;
+}

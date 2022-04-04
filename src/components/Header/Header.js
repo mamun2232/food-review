@@ -11,12 +11,8 @@ const blue ={
 
 const Header = () => {
       return (
-            <div className="header p-4 bg-light ">
-                  {/* <div className="shop-name my-3">
-                        <h3 className='text-center'>Fruits Shop</h3>
-
-                  </div> */}
-                  <nav className='shop-nav mt-4'>
+            <div className="header py-4 bg-light ">
+                 <nav className='shop-nav'>
                         <CoustomLink  to='/'>HOME</CoustomLink>
                         <CoustomLink  to='/review'>REVIEW</CoustomLink>
                         <CoustomLink  to='/dashboard'>DASHBOARD</CoustomLink>
