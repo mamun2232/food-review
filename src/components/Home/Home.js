@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import food from '../../components/Images/food-banner.jpg'
 import { useReview } from '../../useReview/useReview';
 import ReviewCard from '../ReviewCard/ReviewCard';
@@ -7,7 +8,7 @@ import './Home.css'
 const Home = () => {
 
       const [reviews , setReview] = useReview()
-      console.log(reviews);
+      const showThreeReview = reviews.slice(0,3)
       return (
             <div className='container'>
                   <div className="row">
@@ -36,9 +37,12 @@ const Home = () => {
                         <h2 className='text-center'>Our Food Review</h2>
                         <div className="review-card">
                         {
-                              reviews.map(review => <ReviewCard review={review} key={review.id}></ReviewCard> )
+                              showThreeReview.map(review => <ReviewCard review={review} key={review.id}></ReviewCard> )
                         }
                         </div>
+                       <div className="review-button text-center mt-4">
+                       <Link className='btn btn-primary' to='/review'>View All Review</Link>
+                       </div>
                   </div>
             </div>
 

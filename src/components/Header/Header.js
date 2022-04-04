@@ -4,7 +4,7 @@ import './Header.css'
 
 const Header = () => {
       return (
-            <div className="header bg-light p-4">
+            <div className="header bg-light p-4 ">
                   <div className="shop-name my-3">
                         <h3 className='text-center'>Fruits Shop</h3>
 

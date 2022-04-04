@@ -2,9 +2,12 @@ import React from 'react';
 import './ReviewCard.css'
 import { BsFillStarFill } from 'react-icons/bs';
 import { AiTwotoneLike } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 
 const ReviewCard = (props) => {
+      
+      
      const {name, img, ratings, comment, ratingsCount} = props.review
       return (
             <div>
@@ -17,11 +20,14 @@ const ReviewCard = (props) => {
                               <h4>{name}</h4>
                               <p>{ratings} <span><BsFillStarFill className='star' /> <BsFillStarFill className='star'/> <BsFillStarFill className='star'/> <BsFillStarFill className='star'/> <BsFillStarFill className='star'/></span> <small className='ms-1 text-dark'>{ratingsCount}</small></p>
                               <p className='text-muted'>{comment}</p>
-                              <p><AiTwotoneLike></AiTwotoneLike> <span className=''>Like</span></p>
+                              <p><AiTwotoneLike className='text-primary'></AiTwotoneLike> <span className=''>Like</span></p>
                         </div>
                        </div>
+                    
                   </div>
+                  
             </div>
+            
       );
 };
 
