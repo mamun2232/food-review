@@ -11,8 +11,8 @@ const ReviewCard = (props) => {
      const {name, img, ratings, comment, ratingsCount} = props.review
       return (
             <div>
-                  <div className="card h-100 shadow p-3 rounded ">
-                       <div className="review">
+                  <div className="review-card card h-100 shadow  rounded  ">
+                       <div className="review p-3 h-100">
                        <div className="review-card-image">
                               <img src={img} alt="" />
                         </div>
