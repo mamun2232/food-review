@@ -1,6 +1,6 @@
 .review-card-image img{
-      width: 55px;
-      height: 55px;
+      width: 50px;
+      height: 50px;
       border-radius: 50%;
 }
 .review{
@@ -9,14 +9,14 @@
 .review-card-info{
       margin-left: 8px;
 }
-.review-card-info h4{
+.review-card-info h5{
       margin-top: 10px;
 }
 .review-card-info p{
       margin: 0;
 }
 .star{
-      color: red;
+      color: rgb(239, 204, 29);
       margin-bottom: 5px;
       font-size: 13px;
 }

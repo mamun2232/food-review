@@ -1,10 +1,13 @@
 import React from 'react';
+import notFound from '../Images/pagenotFound.jpg'
+import './NotFound.css'
 
 const NotFound = () => {
       return (
             <div>
-                  <h3>Page Not found</h3>
-                  <h4>404</h4>
+                  <div className="container">
+                        <img className='notFound img-fluid' src={notFound} alt="" />
+                  </div>
             </div>
       );
 };

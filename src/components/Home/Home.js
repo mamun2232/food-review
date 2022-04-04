@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import food from '../../components/Images/food-banner.jpg'
 import { useReview } from '../../useReview/useReview';
 import ReviewCard from '../ReviewCard/ReviewCard';
+
+import { FaArrowRight } from 'react-icons/fa'
 import './Home.css'
 
 const Home = () => {
@@ -17,7 +19,7 @@ const Home = () => {
                                    <div className="shop-name">
                                    <h1 className='title'>Welcome To Our <span>Fruits Shop</span></h1>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus corrupti delectus porro iure ipsum temporibus ex exercitationem omnis, quibusdam accusamus?</p>
-                                    <button className='shop-btn'>Shop Now</button>
+                                    <button className='shop-btn'>Shop Now <FaArrowRight></FaArrowRight></button>
                                    </div>
                                   
 
@@ -41,7 +43,7 @@ const Home = () => {
                         }
                         </div>
                        <div className="review-button text-center mt-4">
-                       <Link className='shop-btns' to='/review'>See All Reviews</Link>
+                       <Link className='shop-btns' to='/review'>See All Reviews <FaArrowRight></FaArrowRight></Link>
                        </div>
                   </div>
             </div>

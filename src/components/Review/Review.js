@@ -9,7 +9,7 @@ const Review = () => {
             <div className="review-section">
                   <div className="container">
                         <div className="row">
-                        <h3 className='text-center mt-5 mb-3'>What our Coustomers Say</h3>
+                        <h3 className='text-center mt-4 mb-3'>What our Coustomers Say!</h3>
                         
                              <div className="reviews">
                                    

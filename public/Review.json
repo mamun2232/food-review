@@ -3,8 +3,8 @@
         "id": 1,
         "ratingsCount": 4355,
         "name": "Md Iqbal Hossaion",
-        "ratings": 5.0,
-        "ratingsCount": "9832 reviews",
+        "ratings": "5.0",
+        "day": "1 day ago",
         "img": "https://miro.medium.com/max/1400/0*0fClPmIScV5pTLoE.jpg",
         "comment": "Excellent food. Menu is extensive and seasonal to a particularly high standard. Definitely fine dining."
         
@@ -12,8 +12,8 @@
       {
         "id": 2,
         "name": "Nabila Mim",
-        "ratings": 5.0,
-        "ratingsCount": "2702 reviews",
+        "ratings": "5.0",
+        "day": "3 day ago",
         "img": "https://miro.medium.com/max/1024/0*vRUwG7Bbjnto-7qa.",
         "comment": "Amaazing food! The whole experience from start to finish is great waitress is always so friendly and kind. The food can’t get better and the prices are fair for the portion size. Always a great spot to get great food."
       
@@ -21,8 +21,8 @@
       {
         "id": 3,
         "name": "Juboraj Islam Mamun",
-        "ratings": 5.0,
-        "ratingsCount": "3392 reviews",
+        "ratings": "5.0",
+        "day": "2 weeks ago",
         "img": "https://media.istockphoto.com/photos/home-office-picture-id1184331595?k=20&m=1184331595&s=170667a&w=0&h=c_6hJNRWeXsrrPuA_39IlGFc9T_0ZdOqwAyfgLObtMI=",
 
         "comment": "Absolutely amazing! The place is beautiful and staff are super friendly and the food is delicious. I love that you get a lot of food as well for the price"
@@ -31,8 +31,8 @@
       {
         "id": 4,
         "name": "Binta Islam Fahi",
-        "ratings": 5.0,
-        "ratingsCount": "1171 reviews",
+        "ratings": "5.0",
+        "day": "5 weeks ago",
         "img": "https://about.crunchbase.com/wp-content/uploads/2019/03/Screen-Shot-2019-03-21-at-4.21.42-PM.png",
         "comment": "The menus options are an excellent value. The dining experience overall is very pleasant. I highly recommend this restaurant."
 
@@ -41,8 +41,8 @@
       {
         "id": 5,
         "name": "Rafsan Bin Rasel",
-        "ratings": 5.0,
-        "ratingsCount": "780 reviews",
+        "ratings": "5.0",
+        "day": "1 month ago",
         "img": "https://media.istockphoto.com/photos/m-here-to-make-it-happen-picture-id968943486?k=20&m=968943486&s=170667a&w=0&h=TRIpr9mCjZP1Ey0WoyV-GVekxH0CJ41SE5ICpxQx7YE=",
         "comment": "Absolutely amazing! The place is beautiful and staff are super friendly and the food is delicious"
        
@@ -50,8 +50,8 @@
       {
         "id": 6,
         "name": "Taiaba Alom",
-        "ratings": 5.0,
-        "ratingsCount": "4721 reviews",
+        "ratings": "5.0",
+        "day": "3 month ago",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOlFtlnf7IITRcHD4nW7SnAcsgrCW3Xfvkjt_iwrYMeY9RNxBH1e9FmUdb1UAnVzfBXSM&usqp=CAU",
         "comment": " Everything about this restaurant was great. The place was clean and smelled good. The staff and greeter was very nice"
         

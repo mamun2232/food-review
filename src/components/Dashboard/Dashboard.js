@@ -1,6 +1,7 @@
 // import { Tooltip } from 'bootstrap';
 import React from 'react';
-import { Area, Bar, BarChart, CartesianGrid, ComposedChart, Legend, Line, LineChart, Tooltip, XAxis, YAxis ,} from 'recharts';
+import { Area, Bar, BarChart, CartesianGrid, ComposedChart, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis ,} from 'recharts';
+import './DashBoard.css'
 
 const Dashboard = () => {
       const data = [
@@ -47,7 +48,9 @@ const Dashboard = () => {
               <div className="row mt-5 ">
                 <div className="col-lg-6 ">
                       <h4 className='text-center mb-3'>MONTH WITH SELL</h4>
-                <LineChart width={600} height={350} data={data}>
+
+                    
+                      <LineChart className='' width={600} height={350} data={data}>
                                         <Tooltip></Tooltip>
                                          
                                          <CartesianGrid strokeDasharray="3 3"></CartesianGrid>
@@ -56,10 +59,13 @@ const Dashboard = () => {
                                                <Line dataKey='sell'></Line>
                                                 <Tooltip></Tooltip>
                                                 <Legend></Legend>
+                                                
                                                
                                                 
                                      </LineChart> 
 
+
+                
                 </div>
                 <div className="col-lg-6">
                       <h4 className='text-center mb-3'>INVERSMENT VS REVINIEW</h4>
