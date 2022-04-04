@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Fruits Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Web site created using create react app.. click [](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

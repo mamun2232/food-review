@@ -18,7 +18,8 @@ const Home = () => {
                               <div className="shop-title">
                                    <div className="shop-name">
                                    <h1 className='title'>Welcome To Our <span>Fruits Shop</span></h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus corrupti delectus porro iure ipsum temporibus ex exercitationem omnis, quibusdam accusamus?</p>
+                                    <p>Good food is good for health. Eating good food gives energy to our body. And you get any food in the world from us.
+</p>
                                     <button className='shop-btn'>Shop Now <FaArrowRight></FaArrowRight></button>
                                    </div>
                                   

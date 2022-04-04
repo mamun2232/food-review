@@ -2,17 +2,16 @@
      
      display: flex;
      align-items: center;
-     height: 400px;
+     height: 420px;
 }
 .review-card{
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(350px , 1fr));
       grid-gap: 25px;
 }
-/* .title{
-      font-size: 40px;
-     
-} */
+.shop-name p{
+      font-size: 20px;
+}
 
 .shop-name span{
       color: #00aab7;
