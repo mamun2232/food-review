@@ -15,9 +15,9 @@ const Home = () => {
                         <div className="col-lg-6">
                               <div className="shop-title">
                                    <div className="shop-name">
-                                   <h2>Welcome to Our Fruits Shop</h2>
+                                   <h1 className='title'>Welcome To Our <span>Fruits Shop</span></h1>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus corrupti delectus porro iure ipsum temporibus ex exercitationem omnis, quibusdam accusamus?</p>
-                                    <button className='btn btn-primary'>Shop Now</button>
+                                    <button className='shop-btn'>Shop Now</button>
                                    </div>
                                   
 
@@ -34,14 +34,14 @@ const Home = () => {
                   </div>
 
                   <div className="review-section mt-5">
-                        <h2 className='text-center'>Our Food Review</h2>
+                        <h2 className='text-center mb-4'>Our Food Review</h2>
                         <div className="review-card">
                         {
                               showThreeReview.map(review => <ReviewCard review={review} key={review.id}></ReviewCard> )
                         }
                         </div>
                        <div className="review-button text-center mt-4">
-                       <Link className='btn btn-primary' to='/review'>See All Reviews</Link>
+                       <Link className='shop-btns' to='/review'>See All Reviews</Link>
                        </div>
                   </div>
             </div>
