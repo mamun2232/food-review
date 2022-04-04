@@ -43,9 +43,10 @@ const Dashboard = () => {
       ] 
       return (
         
-          <div className="row container mt-5">
-                <div className="col-lg-6">
-                      <h4 className='text-center'>MONTH WITH SELL</h4>
+         <div className="container">
+              <div className="row mt-5 ">
+                <div className="col-lg-6 ">
+                      <h4 className='text-center mb-3'>MONTH WITH SELL</h4>
                 <LineChart width={600} height={350} data={data}>
                                         <Tooltip></Tooltip>
                                          
@@ -61,20 +62,21 @@ const Dashboard = () => {
 
                 </div>
                 <div className="col-lg-6">
-                      <h4 className='text-center'>INVERSMENT VS REVINIEW</h4>
+                      <h4 className='text-center mb-3'>INVERSMENT VS REVINIEW</h4>
                 <ComposedChart width={630} height={350} data={data}>
                              <XAxis dataKey="month" />
                                                  <YAxis />
                                                 <Tooltip />
                                                 <Legend />
                               <CartesianGrid stroke="#f5f5f5" />
-                  <Area type="monotone" dataKey="investment" fill="#8884d8" stroke="#8884d8" />
+                  <Area type="monotone" dataKey="revenue" fill="#8884d8" stroke="#8884d8" />
                   <Bar dataKey="month" barSize={20} fill="#413ea0" />
                   <Line type="monotone" dataKey="investment" stroke="#ff7300" />
                         </ComposedChart> 
 
                 </div>
           </div>
+         </div>
                   
       
       );
