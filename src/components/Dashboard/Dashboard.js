@@ -1,6 +1,6 @@
-import { Tooltip } from 'bootstrap';
+// import { Tooltip } from 'bootstrap';
 import React from 'react';
-import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, XAxis, YAxis } from 'recharts';
+import { Area, Bar, BarChart, CartesianGrid, ComposedChart, Legend, Line, LineChart, Tooltip, XAxis, YAxis ,} from 'recharts';
 
 const Dashboard = () => {
       const data = [
@@ -40,48 +40,43 @@ const Dashboard = () => {
                 "sell": 670,
                 "revenue": 61000
             }
-        ]
+      ] 
       return (
-            <div className="dashBoad">
-                  <div className="container">
-                        <div className="row">
-                              <div className="col-lg-6">
-                                    <div className="sell-rechart">
-                                          <h5 className='text-center'>Month Wish sell</h5>
-
-                                          <LineChart width={500} height={350} data={data}>
-                                          <Tooltip></Tooltip>
+        
+          <div className="row container mt-5">
+                <div className="col-lg-6">
+                      <h4 className='text-center'>MONTH WITH SELL</h4>
+                <LineChart width={600} height={350} data={data}>
+                                        <Tooltip></Tooltip>
                                          
-                                                <CartesianGrid strokeDasharray="3 3"></CartesianGrid>
-                                                <YAxis dataKey="sell"></YAxis>
+                                         <CartesianGrid strokeDasharray="3 3"></CartesianGrid>
+                                          <YAxis dataKey="sell"></YAxis>
                                                 <XAxis dataKey="month"></XAxis>
-                                                <Line dataKey='sell'></Line>
+                                               <Line dataKey='sell'></Line>
+                                                <Tooltip></Tooltip>
                                                 <Legend></Legend>
                                                
                                                 
-                                          </LineChart>
+                                     </LineChart> 
 
-                                    </div>
+                </div>
+                <div className="col-lg-6">
+                      <h4 className='text-center'>INVERSMENT VS REVINIEW</h4>
+                <ComposedChart width={630} height={350} data={data}>
+                             <XAxis dataKey="month" />
+                                                 <YAxis />
+                                                <Tooltip />
+                                                <Legend />
+                              <CartesianGrid stroke="#f5f5f5" />
+                  <Area type="monotone" dataKey="investment" fill="#8884d8" stroke="#8884d8" />
+                  <Bar dataKey="month" barSize={20} fill="#413ea0" />
+                  <Line type="monotone" dataKey="investment" stroke="#ff7300" />
+                        </ComposedChart> 
 
-
-
-                              </div>
-                              <div className="col-lg-6"></div>
-                              <div className="inversment-recahrt">
-                              <BarChart width={730} height={250} data={data}>
-                                    <CartesianGrid strokeDasharray="3 3" />
-                                    <XAxis dataKey={'mont'} />
-                                     <YAxis dataKey={"investment"} />
-                                     
-                                    {/* <Tooltip /> */}
-                                    {/* <Legend /> */}
-                                    <Bar  fill="#8884d8" />
-                               <Bar dataKey="uv" fill="#82ca9d" />
-                                    </BarChart>
-                              </div>
-                        </div>
-                  </div>
-            </div>
+                </div>
+          </div>
+                  
+      
       );
 };
 
