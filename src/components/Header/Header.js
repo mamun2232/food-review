@@ -4,17 +4,17 @@ import './Header.css'
 
 const Header = () => {
       return (
-            <div className="header bg-light p-4 ">
+            <div className="header p-4 ">
                   <div className="shop-name my-3">
                         <h3 className='text-center'>Fruits Shop</h3>
 
                   </div>
                   <nav className='shop-nav text-center mt-4'>
-                        <NavLink to='/'>Home</NavLink>
-                        <NavLink to='/review'>Review</NavLink>
-                        <NavLink to='/dashboard'>DashBoard</NavLink>
-                        <NavLink to='/blog'>Blog</NavLink>
-                        <NavLink to='/about'>About</NavLink>
+                        <NavLink to='/'>HOME</NavLink>
+                        <NavLink to='/review'>REVIEW</NavLink>
+                        <NavLink to='/dashboard'>DASHBOARD</NavLink>
+                        <NavLink to='/blog'>BOLG</NavLink>
+                        <NavLink to='/about'>ABOUT</NavLink>
 
                   </nav>
             </div>

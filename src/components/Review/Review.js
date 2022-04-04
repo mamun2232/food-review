@@ -9,7 +9,9 @@ const Review = () => {
             <div className="review-section">
                   <div className="container">
                         <div className="row">
+                        <h3>Coustomer Review</h3>
                              <div className="reviews">
+                                   
                              {
                                     reviews.map(review => <ReviewCard review={review} key={review.id}></ReviewCard>)
                               }

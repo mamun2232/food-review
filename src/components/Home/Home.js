@@ -41,7 +41,7 @@ const Home = () => {
                         }
                         </div>
                        <div className="review-button text-center mt-4">
-                       <Link className='btn btn-primary' to='/review'>View All Review</Link>
+                       <Link className='btn btn-primary' to='/review'>See All Reviews</Link>
                        </div>
                   </div>
             </div>
