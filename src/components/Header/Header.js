@@ -15,9 +15,10 @@ const Header = () => {
                  <nav className='shop-nav'>
                         <CoustomLink  to='/'>HOME</CoustomLink>
                         <CoustomLink  to='/review'>REVIEW</CoustomLink>
+                        <CoustomLink  to='/addReview'>ADD REVIEW</CoustomLink>
                         <CoustomLink  to='/dashboard'>DASHBOARD</CoustomLink>
                         <CoustomLink  to='/blog'>BOLG</CoustomLink>
-                        <CoustomLink  to='/about'>ABOUT</CoustomLink>
+                        
 
                   </nav>
             </div>

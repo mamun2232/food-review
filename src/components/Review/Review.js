@@ -5,6 +5,8 @@ import './Review.css'
 
 const Review = () => {
       const [reviews, setReview] = useReview()
+
+      
       return (
             <div className="review-section">
                   <div className="container">
@@ -14,7 +16,7 @@ const Review = () => {
                              <div className="reviews">
                                    
                              {
-                                    reviews.map(review => <ReviewCard review={review} key={review.id}></ReviewCard>)
+                                    reviews.map(review => <ReviewCard review={review} key={review._id}></ReviewCard>)
                               }
                              </div>
 

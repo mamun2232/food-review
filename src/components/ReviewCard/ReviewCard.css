@@ -24,3 +24,12 @@
       border-bottom: 5px solid #11c7d4;
       border-left: 5px solid #11c7d4;
 }
+
+.card-name{
+      display: flex;
+      justify-content: space-between;
+}
+.card-name .delet{
+      color: rgb(240, 68, 68);
+      font-size: 30px;
+}

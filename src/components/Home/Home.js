@@ -10,6 +10,7 @@ import './Home.css'
 const Home = () => {
 
       const [reviews , setReview] = useReview()
+      console.log(reviews);
       const showThreeReview = reviews.slice(0,3)
       return (
             <div className='container'>
@@ -40,7 +41,7 @@ const Home = () => {
                         <h2 className='text-center mb-4'>Our Food Review</h2>
                         <div className="review-card">
                         {
-                              showThreeReview.map(review => <ReviewCard review={review} key={review.id}></ReviewCard> )
+                              showThreeReview.map(review => <ReviewCard review={review} key={review._id}></ReviewCard> )
                         }
                         </div>
                        <div className="review-button text-center mt-4">
